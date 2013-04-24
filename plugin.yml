@@ -1,0 +1,89 @@
+name: WSUCraft
+main: org.wsucraft.WSUCraft
+version: 0.31
+author: MrMallo
+
+commands:
+  WSUCraft:
+    aliases: WSU
+    description: Commands built for WSUCraft.
+    
+permissions:
+  wsucraft.*:
+    description: Gives access to all WSUCraft custom commands
+    children:
+      wsucraft.blind: true
+      wsucraft.confuse: true
+      wsucraft.prot: true
+      wsucraft.dig: true
+      wsucraft.fireprot: true
+      wsucraft.hunger: true
+      wsucraft.strength: true
+      wsucraft.invis: true
+      wsucraft.jump: true
+      wsucraft.night: true
+      wsucraft.poison: true
+      wsucraft.regen: true
+      wsucraft.slow: true
+      wsucraft.slowdig: true
+      wsucraft.speed: true
+      wsucraft.underwater: true
+      wsucraft.weakness: true
+      wsucraft.wither: true
+  wsucraft.use:
+    description: Commands built for WSUCraft
+    default: op
+  wsucraft.blind:
+    description: Allows people to apply blind effect.
+    default: op
+  wsucraft.confuse:
+    description: Allows people to apply confuse effect.
+    default: op
+  wsucraft.prot:
+    description: Allows people to apply prot effect.
+    default: op
+  wsucraft.dig:
+    description: Allows people to apply dig effect.
+    default: op
+  wsucraft.fireprot:
+    description: Allows people to apply fireprot effect.
+    default: op
+  wsucraft.hunger:
+    description: Allows people to apply hunger effect.
+    default: op
+  wsucraft.strength:
+    description: Allows people to apply strength effect.
+    default: op
+  wsucraft.invis:
+    description: Allows people to apply invis effect.
+    default: op
+  wsucraft.jump:
+    description: Allows people to apply jump effect.
+    default: op
+  wsucraft.night:
+    description: Allows people to apply night effect.
+    default: op
+  wsucraft.poison:
+    description: Allows people to apply poison effect.
+    default: op
+  wsucraft.regen:
+    description: Allows people to apply regen effect.
+    default: op
+  wsucraft.slow:
+    description: Allows people to apply slow effect.
+    default: op
+  wsucraft.slowdig:
+    description: Allows people to apply slowdig effect.
+    default: op
+  wsucraft.speed:
+    description: Allows people to apply speed effect.
+    default: op
+  wsucraft.underwater:
+    description: Allows people to apply underwater effect.
+    default: op
+  wsucraft.weakness:
+    description: Allows people to apply weakness effect.
+    default: op
+  wsucraft.wither:
+    description: Allows people to apply wither effect.
+    default: op
